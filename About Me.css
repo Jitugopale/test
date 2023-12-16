@@ -1,0 +1,227 @@
+body{
+    padding: 40px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #EEF5FF;
+}
+
+.navbar-brand{
+    margin-left: 220px;
+    font-size: 70px;
+    font-family: 'Brush Script MT', cursive; 
+
+}
+
+nav{
+    height: 150px;
+    margin-top: 40px;
+}
+
+.nav-link{
+    font-size: 25px;
+    margin-right: 13px;
+    background-color: #C5FFF8;
+    color: red;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.navbar-nav{
+    margin-left: 220px;
+}
+
+h2{
+    margin-left: 70px;
+    margin-top: 40px;
+    font-size: 40px;   
+}
+
+p{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;     
+    text-align: left;
+}
+.intro{ 
+    display: flex;
+    gap: 50px;
+    margin-top: 80px;
+}
+#social{
+    width: 700px;
+    height: 300px;
+    
+  
+}
+
+
+#small{
+    width: 100px;
+    margin-right: 55px;
+    margin-top: 100px;
+    border-radius: 100%;
+}
+
+#images{
+    width: 680px;
+    height: 300px; 
+
+}
+
+
+.certificates{
+    display: grid;
+    grid-template-rows: 400px;
+    grid-template-columns: 690px 750px;
+    margin-top: 10px;
+    margin-bottom: 120px;
+}
+
+#certification{
+    width: 300px;
+    margin-top: 100px;
+}
+
+#internship{
+    width: 550px;
+    margin-top: 180px;
+    border-radius: 10px;
+    margin-left: 80px; 
+    height: 350px;
+}
+
+.internships{
+    display: grid;
+    grid-template-rows: 700px;
+    grid-template-columns: 690px 750px;
+    margin-top: 10px;
+    margin-bottom: 150px;
+}
+
+h4{
+    margin-left: 30px;
+}
+
+
+h3{
+    font-size: 60px;
+    font-family: 'Brush Script MT', cursive;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.footer_web{
+    margin-top: 30px;
+    height:8vh;
+}
+
+
+.row{ 
+    height: 5vh;
+}
+
+.footer_logo{
+    height: 2vh;
+    margin-top: 10px;
+}
+
+#twitter{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 150px;
+}
+
+#instagram_svg{
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 150px;
+}
+
+#linkin_svg{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 150px;
+}
+
+#gmail_svg{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 150px;
+}
+
+#github_svg{
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 150px;
+}
+
+
+h5{
+    font-size: 30px;
+    color:black;
+    margin-top: 30px;
+}
+
+#small{
+    font-size: 2rem;
+}
+@media(max-width:576px){
+    #small{
+        font-size: 1rem;
+        width: 50px;
+        height: 50px;
+        margin-top: 28px;
+        border: 5px solid red;
+    
+    }
+}
+
+p{
+    font-size: 1rem;
+}
+@media(max-width:576px){
+    p{
+        font-size: 1rem;
+        margin-top: 80px;  
+        width: 180px;
+        line-height: 25px;
+    }
+}
+
+#images{
+    font-size: 2rem;
+}
+@media(max-width:576px){
+    #images{
+        font-size: 1rem;
+        margin-top: 230px;
+        margin-left: 40px;    
+    
+    }
+}
+
+#adjust-down{
+    font-size: 2rem;
+}
+@media(max-width:576px){
+    #adjust-down{
+        font-size: 2rem;
+        margin-top: 150px;
+        
+    
+    }
+}
+
+
+
+

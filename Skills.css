@@ -1,0 +1,371 @@
+header{
+    height: 15vh;
+    background-color: #DDE6ED;
+}
+body{
+    padding: 40px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #EEF5FF;
+}
+.name{
+    display: inline;
+    margin-left: 220px;
+    font-size: 60px;
+    font-family: 'Brush Script MT', cursive; 
+}
+li{
+    display: inline;
+    background-color:#EEF5FF;
+    margin-right: 13px;
+    font-size: 25px;
+    font-weight: 700; 
+    border-radius: 10px;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+ul{
+    display: inline;
+    padding-bottom: 3%;
+    margin-left: 200px;  
+}   
+
+.skills{
+    display: grid;
+    grid-template-rows: 400px;
+    grid-template-columns: 720px 720px;
+}
+
+.skill_title{
+    display: flex;
+    margin-top: 15px;
+}
+
+h3{
+    margin-top: 70px;
+    margin-left: 180px;
+    padding: 100px 100px 100px 100px;
+    border-radius: 100%;
+    font-weight: 700;
+    font-size: 45px;
+    background-color: rgb(172, 125, 216);
+}
+
+.skills_img_description{
+    display: grid;
+    grid-template-rows: 480px;
+    grid-template-columns: 720px 720px;
+    margin-top: 40px;
+    margin-bottom: 120px;
+    
+}
+
+#skill_svg{
+    width: 680px;
+    height: 480px;
+}
+
+h6{
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 39px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.skills_description{
+    padding: 40px 40px 40px 40px;
+}
+
+.java{
+    border:  2px solid black;
+    width: 640px;
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.python{
+    border:  2px solid black;
+    width: 640px;
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.c{
+    border:  2px solid black;
+    width: 640px;
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+
+}
+
+.html{
+    border:  2px solid black;
+    width: 640px;
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.css{
+    border:  2px solid black;
+    width: 640px;
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.bootstrap{
+    border:  2px solid black;
+    width: 640px;
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+
+.sql{
+    border:  2px solid black;
+    width: 640px;
+    height: 40px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.java_percent{
+    border: 2px solid black;
+    height: 40px;
+    width: 40%;
+    border-radius: 15px;
+    background-color:rgb(158, 231, 85);
+    display: flex;
+}
+
+
+.python_percent{
+    border: 2px solid black;
+    height: 40px;
+    width: 60%;
+    border-radius: 15px;
+    background-color:rgb(158, 231, 85);
+    display: flex;
+}
+
+.html_percent{
+    border: 2px solid black;
+    height: 40px;
+    width: 90%;
+    border-radius: 15px;
+    background-color:rgb(158, 231, 85);
+    display: flex;
+}
+
+.css_percent{
+    border: 2px solid black;
+    height: 40px;
+    width: 90%;
+    border-radius: 15px;
+    background-color:rgb(158, 231, 85);
+    display: flex;
+}
+
+.bootstrap_percent{
+    border: 2px solid black;
+    height: 40px;
+    width: 70%;
+    border-radius: 15px;
+    background-color:rgb(158, 231, 85);
+    display: flex;
+}
+
+.c_percent{
+    border: 2px solid black;
+    height: 40px;
+    width: 30%;
+    border-radius: 15px;
+    background-color:rgb(158, 231, 85);
+    display: flex;
+}
+
+.sql_percent{
+    border: 2px solid black;
+    height: 40px;
+    width: 30%;
+    border-radius: 15px;
+    background-color:rgb(158, 231, 85);
+    display: flex;
+}
+
+.java_img{
+    margin-top: 2px;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
+
+.python_img{
+    margin-top: 2px;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
+
+.html_img{
+    margin-top: 2px;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
+
+.css_img{
+    margin-top: 2px;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
+
+.c_img{
+    margin-top: 2px;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
+
+.bootstrap_img{
+    margin-top: 2px;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
+
+.sql_img{
+    margin-top: 2px;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
+
+#py{
+    margin-top: 8px;
+    height: 40px;
+    margin-left: 60px;
+    font-weight: 600;
+    color: red; 
+    font-size: 20px;
+} 
+
+#ht{
+    margin-top: 8px;
+    height: 40px;
+    margin-left: 60px;
+    font-weight: 600;
+    color: red; 
+    font-size: 20px;
+} 
+
+#ja{
+    margin-top: 8px;
+    height: 40px;
+    margin-left: 60px;
+    font-weight: 600;
+    color: red;
+    font-size: 20px;
+}
+
+#c{
+    margin-top: 8px;
+    height: 40px;
+    margin-left: 60px;
+    font-weight: 600;
+    color: red;
+    font-size: 20px;
+}
+
+#sq{
+    margin-top: 8px;
+    height: 40px;
+    margin-left: 60px;
+    font-weight: 600;
+    color: red;
+    font-size: 20px;
+}
+
+#bo{
+    margin-top: 8px;
+    height: 40px;
+    margin-left: 60px;
+    font-weight: 600;
+    color: red;
+    font-size: 20px;
+}
+
+
+.footer_web{
+    margin-top: 30px;
+    height:8vh;
+}
+
+
+.row{ 
+    height: 5vh;
+}
+
+.footer_logo{
+    height: 2vh;
+    margin-top: 10px;
+}
+
+#twitter{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 150px;
+}
+
+#instagram_svg{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 150px;
+}
+
+#linkin_svg{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 150px;
+}
+
+#gmail_svg{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 150px;
+}
+
+#github_svg{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 150px;
+}
+
+h5{
+    font-size: 30px;
+    color:black;
+    margin-top: 120px;
+}

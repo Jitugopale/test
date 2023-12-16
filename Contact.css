@@ -1,0 +1,182 @@
+body{
+    padding: 40px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #EEF5FF;
+}
+
+
+.navbar-brand{
+    margin-left: 220px;
+    font-size: 70px;
+    font-family: 'Brush Script MT', cursive; 
+
+}
+
+nav{
+    height: 150px;
+    margin-top: 40px;
+}
+
+.nav-link{
+    font-size: 25px;
+    margin-right: 13px;
+    background-color: #C5FFF8;
+    color: red;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.navbar-nav{
+    margin-left: 220px;
+}
+
+.prof{
+    border: 10px solid blue;
+    border-radius: 100%;
+    margin-top: 50px;
+}
+.prof-img{
+    height: 400px;
+    width: 700px;
+
+}
+
+#contact-info{
+    height: 400px;
+    width: 700px;
+}
+#content{
+    display: flex;
+    gap: 34px;
+    margin-top: 40px;
+}
+
+h2{
+    font-size: 40px;
+    margin-top: 40px;
+}
+#contact-info p{
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(88, 79, 79);
+}
+
+#images img{
+    border-radius:100%;
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    margin-right: 2px;
+
+}
+button{
+    font-size: 20px;
+    background-color:rgb(42, 165, 144);
+    font-weight: 500px;
+    margin-top: 15px;
+    border-radius: 80px;
+}
+
+h5{
+    height: 50px;
+    font-size: 35px;
+    background-color: rgb(75, 214, 214);
+    width: 1000px;
+    border-radius: 10px;
+    color:black
+}
+
+#contact_img{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.footer_web{
+    margin-top: 30px;
+    height:8vh;
+}
+
+
+.row{ 
+    height: 5vh;
+}
+
+.footer_logo{
+    height: 2vh;
+    margin-top: 10px;
+}
+
+#twitter{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 150px;
+}
+
+#instagram_svg{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 150px;
+}
+
+#linkin_svg{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 150px;
+}
+
+#gmail_svg{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 150px;
+}
+
+#github_svg{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin-top: 5px;
+    margin-bottom: 150px;
+}
+
+h6{
+    font-size: 30px;
+    color: black;
+    margin-top: 30px;
+}
+
+h5{
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+@media(max-width:576px){
+    h5{
+        font-size: 1rem;
+        margin-top: 350px;
+        width: 400px;
+        
+    }
+}
+
+#contact_img{
+    font-size: 2rem;;
+
+}
+
+@media(max-width:576px){
+    #contact_img{
+        font-size: 1rem;
+        height: 500px;
+        width: 350px;
+
+    }
+}
+
